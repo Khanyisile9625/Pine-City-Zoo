@@ -2,23 +2,31 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <title>Pine City Zoo - Home</title> <!-- Added a title for better accessibility -->
+        <meta charset="UTF-8"> <!-- Added charset for proper encoding -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
     </head>
     <body>
-        <div id="header">
-            <img src="pineCityZooImages/images/logo.png"/>
-        </div>
-        <div id="tabs-top">
+        <header id="header" role="banner">
+            <img src="pineCityZooImages/images/logo.png" alt="Pine City Zoo Logo"/> <!-- Added alt text -->
+        </header>
+        <nav id="tabs-top" role="navigation" aria-label="Main navigation">
             <a href="Animals.html">ANIMALS</a>
             <a href="Map.html">MAP</a>
             <a href="Places.html">PLACES</a>
-        </div>
-        <div id="main-home">
-            <img src="pineCityZooImages/images/map.png" width="100%"/>
-        </div>
-
-        <div id="tabs-bottom">
+        </nav>
+        <main id="main-home" role="main">
+            <img src="pineCityZooImages/images/map.png" width="100%" alt="Zoo Map"/> <!-- Added alt text -->
+            <h1>Welcome to Pine City Zoo!</h1> <!-- Added a welcoming heading -->
+            <p>Explore our animals, attractions, and more. Use the navigation above to get started.</p> <!-- Added a short description -->
+            <a href="Animals.html" class="cta-button" style="display:inline-block;padding:12px 24px;background:#388e3c;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;margin-top:16px;">Meet Our Animals</a>
+        </main>
+        <nav id="tabs-bottom" role="navigation" aria-label="Secondary navigation">
             <a href="Weather.html">WEATHER</a>
             <a href="Feedback.html">FEEDBACK</a>
-        </div>
+        </nav>
+        <footer style="text-align:center; margin-top:24px; color:#666;">
+            &copy; 2024 Pine City Zoo. All rights reserved.
+        </footer>
     </body>
 </html>

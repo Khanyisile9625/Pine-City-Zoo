@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="style.css">
+        <title>Map - Pine City Zoo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="header">
-            <img src="pineCityZooImages/images/logo.png">
-        </div>
-        <div id="tabs-top">
+        <header id="header" role="banner">
+            <img src="pineCityZooImages/images/logo.png" alt="Pine City Zoo Logo"/>
+        </header>
+        <nav id="tabs-top" role="navigation" aria-label="Main navigation">
             <a href="Animals.html">ANIMALS</a>
-            <a href="IndexPinecityzoo.html">MAP</a>
+            <a href="Map.html">MAP</a>
             <a href="Places.html">PLACES</a>
-        </div>
-
-        <div id="tabs-bottom">
+        </nav>
+        <main id="main-map" role="main">
+            <h1>Zoo Map</h1>
+            <img src="pineCityZooImages/images/map.png" width="100%" alt="Detailed map of Pine City Zoo"/>
+            <p>Use our interactive map to find your favorite animals and attractions!</p>
+            <a href="Places.html" class="cta-button" style="display:inline-block;padding:12px 24px;background:#388e3c;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;margin-top:16px;">Explore Places</a>
+        </main>
+        <nav id="tabs-bottom" role="navigation" aria-label="Secondary navigation">
             <a href="Weather.html">WEATHER</a>
             <a href="Feedback.html">FEEDBACK</a>
-        </div>
+        </nav>
+        <footer style="text-align:center; margin-top:24px; color:#666;">
+            &copy; 2024 Pine City Zoo. All rights reserved.
+        </footer>
     </body>
 </html>

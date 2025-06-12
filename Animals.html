@@ -2,78 +2,33 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <title>Animals - Pine City Zoo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="header">
-            <img src="pineCityZooImages/images/logo.png"/>
-        </div>
-        <div id="tabs-top">
+        <header id="header" role="banner">
+            <img src="pineCityZooImages/images/logo.png" alt="Pine City Zoo Logo"/>
+        </header>
+        <nav id="tabs-top" role="navigation" aria-label="Main navigation">
             <a href="Animals.html">ANIMALS</a>
-            <a href="IndexPinecityzoo.html">MAP</a>
+            <a href="Map.html">MAP</a>
             <a href="Places.html">PLACES</a>
-        </div>
-        <div id="main">
-            <div id="Content">
-                <a class="info-box" href="Elephant.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/elephant-tn.png"/>
-                    <h3>ELEPHANT:</h3>
-                    <P>Gentle giants of the jungle</P>
-                </a>
-                <a class="info-box" href="Giraffes.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/giraffe-tn.png"/>
-                    <h3>GIRAFFES:</h3>
-                    <P>Our giraffes love company</P>
-                </a>
-                <a class="info-box" href="Kaolas.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/koala-tn.png"/>
-                    <h3>KOALAS:</h3>
-                    <P> Come take a look at the cute koalas</P>
-                </a>
-                <a class="info-box" href="Monkeys.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/monkey-tn.png"/>
-                    <h3>MONKEYS:</h3>
-                    <P> Playful monkeys are cleverer than you think</P>
-                </a>
-                <a class="info-box" href="Pandas.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/panda-tn.png"/>
-                    <h3>PANDAS:</h3>
-                    <P> The pandas seem to be everyone's favorite</P>
-                </a>
-                <a class="info-box" href="Lions.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/lion-tn.png"/>
-                    <h3>LIONS:</h3>
-                    <P> The king of the jungle awaits your visit</P>
-                </a>
-                <a class="info-box" href="Gemsbok.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/gemsbok-tn.png"/>
-                    <h3>GEMSBOKS:</h3>
-                    <P> Come and see the majestic Gemsbok</P>
-                </a>
-                <a class="info-box" href="Gorilla.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/gorilla-tn.png"/>
-                    <h3>GORILLAS:</h3>
-                    <P> Kong the gorilla is much friendlier than he looks</P>
-                </a>
-                <a class="info-box" href="Warthog.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/warthog-tn.png"/>
-                    <h3>WARTHOGS:</h3>
-                    <P> Find out more about this funny-looking fellow</P>
-                </a>
-            </div>
-        </div>
-
-        <div id="tabs-bottom">
+        </nav>
+        <main id="main-animals" role="main">
+            <h1>Our Animals</h1>
+            <p>Discover the amazing animals at Pine City Zoo!</p>
+            <!-- Example animal image -->
+            <img src="pineCityZooImages/images/lion.png" alt="African Lion"/>
+            <!-- Add more animal content as needed -->
+            <a href="Map.html" class="cta-button" style="display:inline-block;padding:12px 24px;background:#388e3c;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;margin-top:16px;">See Where They Live</a>
+        </main>
+        <nav id="tabs-bottom" role="navigation" aria-label="Secondary navigation">
             <a href="Weather.html">WEATHER</a>
             <a href="Feedback.html">FEEDBACK</a>
-        </div>
+        </nav>
+        <footer style="text-align:center; margin-top:24px; color:#666;">
+            &copy; 2024 Pine City Zoo. All rights reserved.
+        </footer>
     </body>
 </html>

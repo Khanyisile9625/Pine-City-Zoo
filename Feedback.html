@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="style.css">
+        <title>Feedback - Pine City Zoo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="header">
-            <img src="pineCityZooImages/images/logo.png">
-        </div>
-        <div id="tabs-top">
+        <header id="header" role="banner">
+            <img src="pineCityZooImages/images/logo.png" alt="Pine City Zoo Logo"/>
+        </header>
+        <nav id="tabs-top" role="navigation" aria-label="Main navigation">
             <a href="Animals.html">ANIMALS</a>
-            <a href="IndexPinecityzoo.html">MAP</a>
+            <a href="Map.html">MAP</a>
             <a href="Places.html">PLACES</a>
-        </div>
-        <div id="main">
-            <div id="content">
-                <div id="info-box-full">
-                    <img src="pineCityZooImages/images/giraffe-large.jpg"/>
-                    <h3>WE'D LOVE TO HEAR FROM YOU!</h3>
-                    <P>we always strive to do better, so yourfeddback is important to us. Please fill in the form below</P>
-
-                    <input type="text" placeholder="Your Name" id="Name"/>
-                    <input type="text" placeholder="Your Email" id="Email"/>
-                    <textarea placeholder="Type your message here"></textarea>
-                    <a class="button" href="Feedbackmassage.html">Submit</a>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div id="tabs-bottom">
+        </nav>
+        <main id="main-feedback" role="main">
+            <h1>Feedback</h1>
+            <p>We value your feedback! Please let us know how we can improve your experience at Pine City Zoo.</p>
+            <form>
+                <label for="feedback-text">Your Feedback:</label><br>
+                <textarea id="feedback-text" name="feedback" rows="4" cols="40" aria-label="Your feedback"></textarea><br>
+                <button type="submit" class="cta-button" style="padding:12px 24px;background:#388e3c;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;margin-top:16px;">Submit</button>
+            </form>
+        </main>
+        <nav id="tabs-bottom" role="navigation" aria-label="Secondary navigation">
             <a href="Weather.html">WEATHER</a>
             <a href="Feedback.html">FEEDBACK</a>
-        </div>
+        </nav>
+        <footer style="text-align:center; margin-top:24px; color:#666;">
+            &copy; 2024 Pine City Zoo. All rights reserved.
+        </footer>
     </body>
-
 </html>

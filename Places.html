@@ -1,66 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="style.css">
+        <title>Places - Pine City Zoo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="header">
-            <img src="pineCityZooImages/images/logo.png">
-        </div>
-        <div id="tabs-top">
+        <header id="header" role="banner">
+            <img src="pineCityZooImages/images/logo.png" alt="Pine City Zoo Logo"/>
+        </header>
+        <nav id="tabs-top" role="navigation" aria-label="Main navigation">
             <a href="Animals.html">ANIMALS</a>
-            <a href="IndexPinecityzoo.html">MAP</a>
+            <a href="Map.html">MAP</a>
             <a href="Places.html">PLACES</a>
-        </div>
-        <div id="main">
-            <div id="content">
-                <a class="info-box" href="Amphitheatre.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/amphitheatre-tn.png"/>
-                    <h3>AMPHITHEATRE</h3>
-                    <p>Catch an educational and entertaining event</p>
-                </a>
-                <a class="info-box" href="Insecthouse.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/insect-house-tn.png"/>
-                    <h3>INSECT HOUSE</h3>
-                    <p>Creepy crawlies of every kind you can imagine!</p>
-                </a>
-                <a class="info-box" href="Monkeytrail.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/monkey-trail-tn.png"/>
-                    <h3>MONKEY TRAIL</h3>
-                    <p>Take a walk or ride through this challenging obstacle course</p>
-                </a>
-                <a class="info-box" href="Thelostforest.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/lost-forest-tn.png"/>
-                    <h3>LOST FOREST</h3>
-                    <p>Relax and have a picnic under the trees by the lake.</p>
-                </a>
-                <a class="info-box" href="Coffeeshop.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/coffee-shop-tn.png"/>
-                    <h3>WILD THINGS COFFEE SHOP</h3>
-                    <p>Enjoy a cuppa or a dessert here.</p>
-                </a>
-                <a class="info-box" href="Pizzaplace.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/pizza-shop-tn.png"/>
-                    <h3>MO'S PIZZA</h3>
-                    <p>Scrumptous Pizzas and Pastas for the Family.</p>
-                </a>
-                <a class="info-box" href="Dine@thezoo.html">
-                    <img class="right" src="pineCityZooImages/images/next-arrow.png"/>
-                    <img src="pineCityZooImages/images/restaurant-tn.png"/>
-                    <h3>DINE @THE ZOO</h3>
-                    <p>Enjoy gourmet meals in a serene outdoor setting.</p>
-                </a>
-            </div>
-        </div>
-        <div id="tabs-bottom">
+        </nav>
+        <main id="main-places" role="main">
+            <h1>Attractions & Places</h1>
+            <p>Discover fun places to visit inside Pine City Zoo, from playgrounds to picnic areas and more!</p>
+            <img src="pineCityZooImages/images/playground.png" alt="Zoo Playground"/>
+            <a href="Feedback.html" class="cta-button" style="display:inline-block;padding:12px 24px;background:#388e3c;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;margin-top:16px;">Give Feedback</a>
+        </main>
+        <nav id="tabs-bottom" role="navigation" aria-label="Secondary navigation">
             <a href="Weather.html">WEATHER</a>
             <a href="Feedback.html">FEEDBACK</a>
-        </div>
+        </nav>
+        <footer style="text-align:center; margin-top:24px; color:#666;">
+            &copy; 2024 Pine City Zoo. All rights reserved.
+        </footer>
     </body>
 </html>
